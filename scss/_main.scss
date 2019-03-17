@@ -1,0 +1,94 @@
+.sidebar {
+    flex: 0 0 auto;
+    width: 18.563rem;
+}
+
+.front-bar {
+    flex: 1 1 auto;
+    width: 52.125rem;
+}
+
+// saidbar
+
+.categories-list {
+    box-shadow: 0 0 0.438rem rgba(0, 0, 0, 0.03);
+    background-color: #ffffff;
+    display: none;
+}
+
+.categories-list__item {
+    // dropdown menu
+    width: 16.813rem;
+    flex: auto;
+    border-bottom: solid 1px $color__bg-btn--categories;
+    margin: 0 0.875rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-family: "Lato";
+    font-size: 0.938rem;
+    font-weight: 400;
+    padding-left: 0.625rem;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.categories-list__item__icon {
+    width: 0.813rem;
+    margin-right: 1.1875rem;
+}
+
+.categories-list__item__icon {
+    color: $color__bg-btn--categories;
+}
+
+.offer-card {
+    box-shadow: 0 0 0.438rem rgba(0, 0, 0, 0.03);
+    background-color: white;
+}
+
+.offer-card__container {
+    align-items: center;
+}
+
+.offer-card__header {
+    border-bottom: solid 1px $color__border;
+    height: 1.063rem;
+    list-style: 1.063rem;
+    padding: 1.5625rem 0;
+    width: 15.313rem;
+}
+
+.offer-card__header__title {
+    font-family: "Lato";
+    font-size: 1.375rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn__left {
+    font-size: 1.438rem;
+    color: $color__bg-btn__slider--active;
+}
+
+.btn__rigth {
+    font-size: 1.438rem;
+    color: $color__bg-btn__slider--inactive;
+}
+
+.offer-card__body {
+    overflow: hidden;
+    margin-top: 1.625rem;
+}
+
+.offer-card__footer {
+    margin-top: 1.3125rem;
+}
+
+.offer-card__footer__title {
+    color: $color__card__description;
+    font-family: "Lato";
+    font-size: 0.938rem;
+    font-weight: 400;
+}

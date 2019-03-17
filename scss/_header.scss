@@ -34,23 +34,101 @@
     left: -68px;
 }
 
-// .nav__items{
-//     width: 22.25rem;
-// }
-
-.nav__item{
-    // Style for "My Account"
-height: 0.688rem;
-color: #ffffff;
-font-family: Lato;
-font-size: 0.75rem;
-font-weight: 400;
-margin-right: 1rem;
-border-right: solid white 2px;
-padding-right: 1rem;
-cursor: pointer;
-
-&:last-child{
-    border: none;
+.nav__items {
+    margin-top: 1.125rem;
 }
+
+.nav__item {
+    // Style for "My Account"
+    height: 0.688rem;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-right: 1rem;
+    border-right: solid white 2px;
+    padding-right: 1rem;
+    cursor: pointer;
+
+    &:last-child {
+        border: none;
+        padding-right: 0.375rem;
+        margin-right: 0;
+    }
+}
+
+.search {
+    margin-top: 1.333rem;
+}
+
+.search-input__form {
+    width: 36.563rem;
+    height: 2.313rem;
+    border-radius: 0.313rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.search-input__btn {
+    box-sizing: border-box;
+    height: 2.313rem;
+    background-color: $color__bg-btn__slider--active;
+    border: none;
+    flex: 0 0 3.375rem;
+
+    &>i {
+        color: white;
+    }
+}
+
+.search-input__input {
+    box-sizing: border-box;
+    height: 2.313rem;
+    background-color: #ffffff;
+    border: none;
+    flex: 1 1 auto;
+}
+
+.total {
+    margin-left: 2.625rem;
+}
+
+.total__img {
+    width: 2.313rem;
+    height: 2.313rem;
+    background-color: $color__bg-btn__slider--active;
+    border-radius: 50%;
+    line-height: 2.313rem;
+    // text-align: center;
+    cursor: pointer;
+
+    &>i {
+        padding-left: 0.5rem;
+        width: 0.938rem;
+        height: 0.75rem;
+        color: #ffffff;
+    }
+}
+
+.total__data {
+    padding-top: 0.25rem;
+    color: #ffffff;
+    font-family: Lato;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 3px;
+
+    & span {
+        display: block;
+    }
+
+    &__logo {
+        font-size: 0.688rem;
+        font-weight: 400;
+    }
+
+    &__total {
+        font-size: 0.875rem;
+        font-weight: 700;
+    }
 }

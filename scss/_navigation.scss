@@ -1,0 +1,32 @@
+.navigation {
+    // Style for "Rectangle"
+    width: 100%;
+    height: 3.188rem;
+    background-color: $color__bg-btn__slider--active;
+    line-height: 3.188rem;
+}
+
+.categories__img {
+    width: 1rem;
+    margin-left: 1.5625rem;
+}
+
+.categories__title {
+    margin-left: 1rem;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navigation__nav__list {
+    flex: auto;
+}
+
+.navigation__nav__items {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 0.938rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}

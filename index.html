@@ -19,7 +19,7 @@
                     <div class="logo__text">Market<span class="logo__text--white">Supply</span></div>
                     <span><i class="fab fa-opencart logo__img"></i></span>
                 </div>
-                <div class="top-navigation col">
+                <div class="top-navigation column alian-i--end">
                     <div class="nav">
                         <ul class="nav__items row">
                             <li class="nav__item">My Account</li>
@@ -29,10 +29,113 @@
                             <li class="nav__item">Login</li>
                         </ul>
                     </div>
+                    <div class="search row">
+                        <div class="search-input">
+                            <form class="search-input__form row">
+                                <input class="search-input__input" type="text">
+                                <button class="search-input__btn"><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+                        <div class="total row">
+                            <span class="total__img"><i class="fas fa-shopping-cart"></i></span>
+                            <div class="total__data">
+                                <span class="total__data__logo">Total</span>
+                                <span class="total__data__amount">$600.00</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
+    <nav class="navigation">
+        <div class="container">
+            <div class="navigation__nav row">
+                <div class="navigation__nav__categories row">
+                    <span class="categories__img"><i class="fas fa-list"></i></span>
+                    <span class="categories__title">Categories</span>
+                </div>
+                <div class="navigation__nav__list">
+                    <ul class="navigation__nav__items row justify-sb">
+                        <li class="navigation__nav__item">Clothing</li>
+                        <li class="navigation__nav__item">Electronics hot</li>
+                        <li class="navigation__nav__item">Health & Beauty</li>
+                        <li class="navigation__nav__item">Watches</li>
+                        <li class="navigation__nav__item">Jewellery</li>
+                        <li class="navigation__nav__item">Shoes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container row">
+            <div class="sidebar">
+                <div class="sidebar__content column">
+                    <div class="categories-list">
+                        <ul class="categories-list__items column">
+                            <li class="categories-list__item"><span class="categories-list__item__icon"><i class="far fa-play-circle"></i></span>Clothing</li>
+                            <li class="categories-list__item"><span class="categories-list__item__icon"><i class="far fa-play-circle"></i></span>Electronics</li>
+                            <li class="categories-list__item"><span class="categories-list__item__icon"><i class="far fa-play-circle"></i></span>Shoes</li>
+                            <li class="categories-list__item"><span class="categories-list__item__icon"><i class="far fa-play-circle"></i></span>Watches</li>
+                            <li class="categories-list__item"><span class="categories-list__item__icon"><i class="far fa-play-circle"></i></span>Jewellery</li>
+                            <li class="categories-list__item"><span class="categories-list__item__icon"><i class="far fa-play-circle"></i></span>Health
+                                and Beauty</li>
+                            <li class="categories-list__item"><span class="categories-list__item__icon"><i class="far fa-play-circle"></i></span>Kids
+                                and Babies</li>
+                            <li class="categories-list__item"><span class="categories-list__item__icon"><i class="far fa-play-circle"></i></span>Sports</li>
+                            <li class="categories-list__item"><span class="categories-list__item__icon"><i class="far fa-play-circle"></i></span>Home
+                                and Garden</li>
+                        </ul>
+                    </div>
+
+                    <div class="offer-card">
+                        <div class="offer-card__container column">
+                            <div class="offer-card__header row justify-sb">
+                                <div class="offer-card__header__title">Hot Deals</div>
+                                <div class="offer-card__header__buttons">
+                                    <span class="btn__left"><i class="fas fa-play-circle fa-rotate-180"></i></span>
+                                    <span class="btn__rigth"><i class="fas fa-play-circle"></i></span>
+                                </div>
+                            </div>
+                            <div class="offer-card__body">
+                                <img src="./assets/Layer_15.png" alt="">
+                            </div>
+                            <div class="offer-card__footer">
+                                <div class="offer-card__footer__title">Lorem ipsum dolor</div>
+                                <div class="offer-card__footer__price">
+                                    <span class="footer__price__old">$100.00</span>$90.00
+                                    <div class="offer-card__footer__stars">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="front-bar">
+                    <div class="front-bar__content column">
+
+                    </div>
+                </div>
+            </div>
+    </main>
+    <script>
+        function getStyle(element, name) {
+            return element.currentStyle ? element.currentStyle[name] : window.getComputedStyle ? window.getComputedStyle(
+                element, null).getPropertyValue(name) : null;
+        }
+        // document.querySelector('.categories-list').addEventListener("mouseover", over)
+        document.querySelector('.navigation__nav__categories').addEventListener("click", () => {
+            var list = document.querySelector('.categories-list')
+            console.log(getStyle(list, 'display'));
+            getStyle(list, 'display') === 'none' ? list.style.display = 'flex' : list.style.display = 'none'
+        })
+    </script>
 </body>
 
 </html>

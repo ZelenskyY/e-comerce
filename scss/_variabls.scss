@@ -9,12 +9,18 @@ $color__text--fade: #a7a7a7;
 $color__bg-btn--regular: #f22f49;
 $color__bg: #f3f3f3;
 $color__border: #3d3d3d;
+$color__border: #eaeaea;
 $color__text--blue: #0f8ce9;
 $color__bg-btn__slider--inactive: #cacaca;
 $color__text--info: #b6b6b6;
+$color__card__description: #6e6e6e;
 
 // font base
 
 html {
     font-size: 16px;
+}
+
+body {
+    background: $color__bg;
 }

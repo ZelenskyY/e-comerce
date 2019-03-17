@@ -20,3 +20,13 @@
 .justify-sb {
     justify-content: space-between;
 }
+
+.alian-i{
+    &--start{
+        align-items: flex-start;
+    }
+
+    &--end{
+        align-items: flex-end;
+    }
+}
