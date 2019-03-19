@@ -17,16 +17,31 @@
     flex: auto;
 }
 
-.justify-sb {
-    justify-content: space-between;
-}
+.justify {
+    &--sb {
+        justify-content: space-between;
+    }
 
-.alian-i{
-    &--start{
-        align-items: flex-start;
+    &--ev{
+        justify-content: space-evenly;
     }
 
     &--end{
+        justify-content: flex-end;
+    }
+
+}
+
+.alian-i {
+    &--start {
+        align-items: flex-start;
+    }
+
+    &--end {
         align-items: flex-end;
+    }
+
+    &--center {
+        align-items: center;
     }
 }

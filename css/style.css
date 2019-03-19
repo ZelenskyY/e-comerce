@@ -161,8 +161,14 @@ body {
   flex: auto;
 }
 
-.justify-sb {
+.justify--sb {
   justify-content: space-between;
+}
+.justify--ev {
+  justify-content: space-evenly;
+}
+.justify--end {
+  justify-content: flex-end;
 }
 
 .alian-i--start {
@@ -170,6 +176,9 @@ body {
 }
 .alian-i--end {
   align-items: flex-end;
+}
+.alian-i--center {
+  align-items: center;
 }
 
 .header {
@@ -253,6 +262,10 @@ body {
   background-color: #ffffff;
   border: none;
   flex: 1 1 auto;
+  font-family: "Lato";
+  font-size: 0.938rem;
+  font-weight: 400;
+  padding-left: 1.625rem;
 }
 
 .total {
@@ -304,6 +317,7 @@ body {
 .categories__img {
   width: 1rem;
   margin-left: 1.5625rem;
+  color: white;
 }
 
 .categories__title {
@@ -370,6 +384,7 @@ body {
 .offer-card {
   box-shadow: 0 0 0.438rem rgba(0, 0, 0, 0.03);
   background-color: white;
+  margin-top: 2rem;
 }
 
 .offer-card__container {
@@ -394,11 +409,13 @@ body {
 .btn__left {
   font-size: 1.438rem;
   color: #f10e34;
+  cursor: pointer;
 }
 
 .btn__rigth {
   font-size: 1.438rem;
   color: #cacaca;
+  cursor: pointer;
 }
 
 .offer-card__body {
@@ -410,11 +427,270 @@ body {
   margin-top: 1.3125rem;
 }
 
-.offer-card__footer__title {
+.offer-card__footer__title, .card__title {
   color: #6e6e6e;
   font-family: "Lato";
   font-size: 0.938rem;
   font-weight: 400;
+}
+
+.offer-card__footer__price, .card__price {
+  font-family: "Lato";
+  font-size: 0.938rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0.625rem 0;
+}
+.offer-card__footer__price--old, .card__price--old {
+  font-weight: 400;
+  text-decoration: line-through;
+  margin-right: 0.5rem;
+}
+
+.offer-card__footer__stars, .card__rating {
+  color: #ffc808;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.front-bar {
+  width: 52.125rem;
+  flex: 0 1 auto;
+}
+
+.baner {
+  height: 23.5rem;
+  background: url("/assets/Layer_5.jpg") no-repeat;
+}
+
+.baner__ofert {
+  margin-top: 92px;
+  margin-left: 32px;
+  width: 25.75rem;
+  height: 7.563rem;
+  text-shadow: 0.125rem 0.125rem 0.438rem rgba(0, 0, 0, 0.13);
+  color: white;
+  font-family: "Lato";
+  font-size: 2.375rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.baner__ofert__text--1 {
+  color: #303a7a;
+  font-weight: bold;
+}
+.baner__ofert__text--2 {
+  font-size: 3.75rem;
+  line-height: 3.626rem;
+  font-weight: bolder;
+}
+.baner__ofert__text--3 {
+  font-size: 1.375rem;
+  line-height: 2.125rem;
+}
+
+.baner__btn {
+  width: 8.875rem;
+  height: 2.625rem;
+  margin-top: 50px;
+  border: 0.125rem solid black;
+  background-color: transparent;
+  color: black;
+  font-family: Lato;
+  font-size: 1.063rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.baner__strip {
+  height: 4.938rem;
+  background-color: #f10e34;
+  margin-bottom: 2.4375rem;
+}
+
+.baner__strip__slogan {
+  text-align: center;
+  color: white;
+}
+
+.slogan__title {
+  font-family: "Lato";
+  font-weight: 700;
+  letter-spacing: 0.188rem;
+  text-transform: uppercase;
+}
+
+.slogan__body {
+  font-family: "Lato";
+  font-size: 0.938rem;
+  font-weight: 400;
+}
+
+.product {
+  width: 52.125rem;
+  box-shadow: 0 0 0.438rem rgba(0, 0, 0, 0.03);
+  background-color: #ffffff;
+}
+
+.product__container--min {
+  padding: 2.5rem;
+  padding-bottom: 3rem;
+  margin: -1rem 0;
+}
+
+.product__header {
+  flex: none;
+  height: 4.6875rem;
+  margin: 0 1.1875rem;
+  border-bottom: solid #eaeaea 1px;
+}
+
+.product__title {
+  color: black;
+  font-family: "Lato";
+  font-size: 1.375rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.product__nav {
+  margin-right: 3rem;
+  margin-left: auto;
+  flex: none;
+  width: 15.938rem;
+}
+
+.product__nav__itim {
+  color: black;
+  font-family: "Lato";
+  font-size: 0.938rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.card {
+  width: 11.0625rem;
+  height: 17.8125rem;
+  margin-left: 1.1875rem;
+  margin-top: 1.6875rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card__img {
+  width: 11.063rem;
+  height: 12.625rem;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+}
+.card__img > img {
+  width: 100%;
+  height: auto;
+}
+
+.card__min {
+  width: 14.375rem;
+  height: 5.125rem;
+  margin: 1rem 0;
+}
+
+.card__min__img {
+  width: 5.125rem;
+  height: 5.125rem;
+  overflow: hidden;
+  margin-right: 1.375rem;
+}
+.card__min__img > img {
+  width: 100%;
+  height: auto;
+}
+
+.card__title {
+  text-align: left;
+}
+
+.card__price {
+  text-align: left;
+}
+.card__price--old {
+  text-align: left;
+}
+
+.card__rating {
+  text-align: left;
+}
+
+.hot__strip__card {
+  width: 24.75rem;
+  height: 14.125rem;
+  position: relative;
+}
+
+.hot__strip {
+  margin: 2rem 0;
+}
+
+.hot__strip__card {
+  overflow: hidden;
+}
+
+.strip__card__left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 60%;
+}
+
+.strip__card__right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: auto;
+  width: 60%;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.footer {
+  margin-top: 4.3125rem;
+}
+
+.footer__logo {
+  height: 11.438rem;
+  width: 100%;
+  background-color: #f10e34;
+}
+
+.footer__logo__content {
+  height: 11.438rem;
+  width: 100%;
+}
+
+.footer__logo__bg {
+  display: block;
+  width: 7.125rem;
+  height: 6.25rem;
+}
+.footer__logo__bg--1 {
+  background: url(../assets/brand4.png) no-repeat 0 0;
+}
+.footer__logo__bg--2 {
+  background: url(../assets/brand4.png) no-repeat -206px 0;
+}
+.footer__logo__bg--3 {
+  background: url(../assets/brand4.png) no-repeat -436px 0;
+}
+.footer__logo__bg--4 {
+  background: url(../assets/brand4.png) no-repeat -647px 0;
+}
+.footer__logo__bg--5 {
+  background: url(../assets/brand4.png) no-repeat -848px 0;
+}
+.footer__logo__bg--6 {
+  background: url(../assets/brand4.png) no-repeat -1036px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -32,7 +32,7 @@
                     <div class="search row">
                         <div class="search-input">
                             <form class="search-input__form row">
-                                <input class="search-input__input" type="text">
+                                <input class="search-input__input" type="text" placeholder="Search here...">
                                 <button class="search-input__btn"><i class="fas fa-search"></i></button>
                             </form>
                         </div>
@@ -56,7 +56,7 @@
                     <span class="categories__title">Categories</span>
                 </div>
                 <div class="navigation__nav__list">
-                    <ul class="navigation__nav__items row justify-sb">
+                    <ul class="navigation__nav__items row justify--ev">
                         <li class="navigation__nav__item">Clothing</li>
                         <li class="navigation__nav__item">Electronics hot</li>
                         <li class="navigation__nav__item">Health & Beauty</li>
@@ -69,7 +69,8 @@
         </div>
     </nav>
     <main>
-        <div class="container row">
+        <!-- left side -->
+        <div class="container row justify--sb">
             <div class="sidebar">
                 <div class="sidebar__content column">
                     <div class="categories-list">
@@ -88,10 +89,9 @@
                                 and Garden</li>
                         </ul>
                     </div>
-
                     <div class="offer-card">
                         <div class="offer-card__container column">
-                            <div class="offer-card__header row justify-sb">
+                            <div class="offer-card__header row justify--ev">
                                 <div class="offer-card__header__title">Hot Deals</div>
                                 <div class="offer-card__header__buttons">
                                     <span class="btn__left"><i class="fas fa-play-circle fa-rotate-180"></i></span>
@@ -104,8 +104,379 @@
                             <div class="offer-card__footer">
                                 <div class="offer-card__footer__title">Lorem ipsum dolor</div>
                                 <div class="offer-card__footer__price">
-                                    <span class="footer__price__old">$100.00</span>$90.00
-                                    <div class="offer-card__footer__stars">
+                                    <span class="offer-card__footer__price--old">$100.00</span>$90.00
+                                </div>
+                                <div class="offer-card__footer__stars">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-card">
+                        <div class="offer-card__container column">
+                            <div class="offer-card__header row justify--ev">
+                                <div class="offer-card__header__title">Special Deal</div>
+                                <div class="offer-card__header__buttons">
+                                    <span class="btn__left"><i class="fas fa-play-circle fa-rotate-180"></i></span>
+                                    <span class="btn__rigth"><i class="fas fa-play-circle"></i></span>
+                                </div>
+                            </div>
+                            <div class="offer-card__body">
+                                <img src="./assets/Layer_17.png" alt="">
+                            </div>
+                            <div class="offer-card__footer">
+                                <div class="offer-card__footer__title">Lorem ipsum dolor</div>
+                                <div class="offer-card__footer__price">
+                                    <span class="offer-card__footer__price--old">$100.00</span>$90.00
+                                </div>
+                                <div class="offer-card__footer__stars">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- main -->
+            <div class="front-bar">
+                <div class="front-bar__content column">
+                    <!-- baner -->
+                    <div class="baner">
+                        <div class="baner__content">
+                            <div class="baner__ofert">
+                                <div class="baner__ofert__text--1">COLLECTION 2016</div>
+                                <div class="baner__ofert__text--2">save 50% for</div>
+                                <div class="baner__ofert__text--3">FIRST PURCHASE </div>
+                                <button class="baner__btn">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="baner__strip row alian-i--center justify--ev">
+                        <div class="baner__strip__slogan">
+                            <div class="slogan__title">money back</div>
+                            <div class="slogan__body">30 Days Money Back Guarantee</div>
+                        </div>
+                        <div class="baner__strip__slogan">
+                            <div class="slogan__title">free shipping</div>
+                            <div class="slogan__body">Shipping on orders over $99</div>
+                        </div>
+                        <div class="baner__strip__slogan">
+                            <div class="slogan__title">Special Sale</div>
+                            <div class="slogan__body">Extra $5 off on all items</div>
+                        </div>
+                    </div>
+                    <div class="product column">
+                        <div class="product__header row alian-i--center">
+                            <div class="product__title">New Products</div>
+                            <ul class="product__nav row justify--sb">
+                                <li class="product__nav__itim">All</li>
+                                <li class="product__nav__itim">Clothing</li>
+                                <li class="product__nav__itim">Electronics</li>
+                                <li class="product__nav__itim">Shoes</li>
+                            </ul>
+                            <div class="product__btn">
+                                <span class="btn__left"><i class="fas fa-play-circle fa-rotate-180"></i></span>
+                                <span class="btn__rigth"><i class="fas fa-play-circle"></i></span>
+                            </div>
+                        </div>
+                        <div class="product__container row">
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="./assets/Layer_14.png" alt="">
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__title">Lorem ipsum dolor</div>
+                                    <div class="card__price">
+                                        <span class="card__price--old">$100.00</span>$90.00
+                                    </div>
+                                    <div class="card__rating">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="./assets/Layer_21.png" alt="">
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__title">Lorem ipsum dolor</div>
+                                    <div class="card__price">
+                                        <span class="card__price--old">$100.00</span>$90.00
+                                    </div>
+                                    <div class="card__rating">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="./assets/Layer_11.jpg" alt="">
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__title">Lorem ipsum dolor</div>
+                                    <div class="card__price">
+                                        <span class="card__price--old">$100.00</span>$90.00
+                                    </div>
+                                    <div class="card__rating">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="./assets/Layer_16.png" alt="">
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__title">Lorem ipsum dolor</div>
+                                    <div class="card__price">
+                                        <span class="card__price--old">$100.00</span>$90.00
+                                    </div>
+                                    <div class="card__rating">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hot__strip row justify--sb">
+                        <div class="hot__strip__card">
+                            <img class="strip__card__left" src="./assets/Layer_13.png" alt="">
+                            <img class="strip__card__right" src="./assets/Layer_19_copy.png" alt="">
+                        </div>
+                        <div class="hot__strip__card">
+                            <img class="strip__card__left" src="./assets/Layer_18.png" alt="">
+                            <img class="strip__card__right" src="./assets/Layer_19_copy.png" alt="">
+                        </div>
+                    </div>
+                    <div class="product column mb-2">
+                        <div class="product__header row alian-i--center">
+                            <div class="product__title">Latest Products</div>
+                            <ul class="product__nav row justify--sb">
+                                <li class="product__nav__itim">All</li>
+                                <li class="product__nav__itim">Clothing</li>
+                                <li class="product__nav__itim">Electronics</li>
+                                <li class="product__nav__itim">Shoes</li>
+                            </ul>
+                            <div class="product__btn">
+                                <span class="btn__left"><i class="fas fa-play-circle fa-rotate-180"></i></span>
+                                <span class="btn__rigth"><i class="fas fa-play-circle"></i></span>
+                            </div>
+                        </div>
+                        <div class="product__container row">
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="./assets/Layer_7.png" alt="">
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__title">Lorem ipsum dolor</div>
+                                    <div class="card__price">
+                                        <span class="card__price--old">$100.00</span>$90.00
+                                    </div>
+                                    <div class="card__rating">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="./assets/Layer_8.png" alt="">
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__title">Lorem ipsum dolor</div>
+                                    <div class="card__price">
+                                        <span class="card__price--old">$100.00</span>$90.00
+                                    </div>
+                                    <div class="card__rating">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="./assets/Layer_9.png" alt="">
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__title">Lorem ipsum dolor</div>
+                                    <div class="card__price">
+                                        <span class="card__price--old">$100.00</span>$90.00
+                                    </div>
+                                    <div class="card__rating">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="./assets/Layer_10.png" alt="">
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__title">Lorem ipsum dolor</div>
+                                    <div class="card__price">
+                                        <span class="card__price--old">$100.00</span>$90.00
+                                    </div>
+                                    <div class="card__rating">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product column">
+                        <div class="product__header row alian-i--center">
+                            <div class="product__title">Featured products</div>
+                            <ul class="product__nav row justify--sb">
+                                <li class="product__nav__itim">All</li>
+                                <li class="product__nav__itim">Clothing</li>
+                                <li class="product__nav__itim">Electronics</li>
+                                <li class="product__nav__itim">Shoes</li>
+                            </ul>
+                            <div class="product__btn">
+                                <span class="btn__left"><i class="fas fa-play-circle fa-rotate-180"></i></span>
+                                <span class="btn__rigth"><i class="fas fa-play-circle"></i></span>
+                            </div>
+                        </div>
+                        <div class="product__container--min row">
+                            <div class="card__min row ">
+                                <div class="card__min__img">
+                                    <img src="./assets/Layer_14.png" alt="">
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__title">Lorem ipsum dolor</div>
+                                    <div class="card__price">
+                                        <span class="card__price--old">$100.00</span>$90.00
+                                    </div>
+                                    <div class="card__rating">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__min row ">
+                                <div class="card__min__img">
+                                    <img src="./assets/Layer_14.png" alt="">
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__title">Lorem ipsum dolor</div>
+                                    <div class="card__price">
+                                        <span class="card__price--old">$100.00</span>$90.00
+                                    </div>
+                                    <div class="card__rating">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__min row ">
+                                <div class="card__min__img">
+                                    <img src="./assets/Layer_14.png" alt="">
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__title">Lorem ipsum dolor</div>
+                                    <div class="card__price">
+                                        <span class="card__price--old">$100.00</span>$90.00
+                                    </div>
+                                    <div class="card__rating">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__min row ">
+                                <div class="card__min__img">
+                                    <img src="./assets/Layer_13.png" alt="">
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__title">Lorem ipsum dolor</div>
+                                    <div class="card__price">
+                                        <span class="card__price--old">$100.00</span>$90.00
+                                    </div>
+                                    <div class="card__rating">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__min row ">
+                                <div class="card__min__img">
+                                    <img src="./assets/Layer_16.png" alt="">
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__title">Lorem ipsum dolor</div>
+                                    <div class="card__price">
+                                        <span class="card__price--old">$100.00</span>$90.00
+                                    </div>
+                                    <div class="card__rating">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__min row ">
+                                <div class="card__min__img">
+                                    <img src="./assets/Layer_15.png" alt="">
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__title">Lorem ipsum dolor</div>
+                                    <div class="card__price">
+                                        <span class="card__price--old">$100.00</span>$90.00
+                                    </div>
+                                    <div class="card__rating">
                                         <span><i class="fas fa-star"></i></span>
                                         <span><i class="fas fa-star"></i></span>
                                         <span><i class="fas fa-star"></i></span>
@@ -117,13 +488,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="front-bar">
-                    <div class="front-bar__content column">
-
-                    </div>
-                </div>
             </div>
     </main>
+    <footer class="footer">
+        <div class="footer__logo">
+            <div class="container">
+                <div class="footer__logo__content row justify--sb alian-i--center">
+                    <a href="" class="footer__logo__img"><span class="footer__logo__bg footer__logo__bg--1"></span></a>
+                    <a href="" class="footer__logo__img"><span class="footer__logo__bg footer__logo__bg--2"></span></a>
+                    <a href="" class="footer__logo__img"><span class="footer__logo__bg footer__logo__bg--3"></span></a>
+                    <a href="" class="footer__logo__img"><span class="footer__logo__bg footer__logo__bg--4"></span></a>
+                    <a href="" class="footer__logo__img"><span class="footer__logo__bg footer__logo__bg--5"></span></a>
+                    <a href="" class="footer__logo__img"><span class="footer__logo__bg footer__logo__bg--6"></span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script>
         function getStyle(element, name) {
             return element.currentStyle ? element.currentStyle[name] : window.getComputedStyle ? window.getComputedStyle(

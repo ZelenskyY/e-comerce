@@ -1,0 +1,44 @@
+.footer{
+    margin-top: 4.3125rem;
+}
+
+.footer__logo{
+    height: 11.438rem;
+    width: 100%;
+    background-color: $color__bg-btn__slider--active;
+}
+
+.footer__logo__content{
+    height: 11.438rem;
+    width: 100%;
+}
+
+.footer__logo__bg{
+    display: block;
+    width: 7.125rem;
+    height: 6.25rem;
+
+    &--1{
+        background: url(../assets/brand4.png) no-repeat 0 0;
+    }
+
+    &--2{
+        background: url(../assets/brand4.png) no-repeat -206px 0;
+    }
+
+    &--3{
+        background: url(../assets/brand4.png) no-repeat -436px 0;
+    }
+
+    &--4{
+        background: url(../assets/brand4.png) no-repeat -647px 0;
+    }
+
+    &--5{
+        background: url(../assets/brand4.png) no-repeat -848px 0;
+    }
+
+    &--6{
+        background: url(../assets/brand4.png) no-repeat -1036px 0;
+    }
+}
