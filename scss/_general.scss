@@ -30,9 +30,13 @@
         justify-content: flex-end;
     }
 
+    &--center{
+        justify-content: center;
+    }
+
 }
 
-.alian-i {
+.align-i {
     &--start {
         align-items: flex-start;
     }

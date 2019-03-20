@@ -170,14 +170,17 @@ body {
 .justify--end {
   justify-content: flex-end;
 }
+.justify--center {
+  justify-content: center;
+}
 
-.alian-i--start {
+.align-i--start {
   align-items: flex-start;
 }
-.alian-i--end {
+.align-i--end {
   align-items: flex-end;
 }
-.alian-i--center {
+.align-i--center {
   align-items: center;
 }
 
@@ -691,6 +694,110 @@ body {
 }
 .footer__logo__bg--6 {
   background: url(../assets/brand4.png) no-repeat -1036px 0;
+}
+
+.footer__info {
+  width: 100%;
+  height: 25.5rem;
+  background-color: #222222;
+  text-align: left;
+  padding-top: 5.3125rem;
+  color: #b6b6b6;
+  font-family: "Lato";
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.main__info {
+  width: 17rem;
+}
+
+.main__info__text {
+  margin-top: -2.625rem;
+  margin-bottom: 2.25rem;
+}
+
+.contact__pic {
+  margin-right: 1rem;
+  color: #f10e34;
+  width: 0.8rem;
+}
+.contact__pic > svg {
+  fill: #f10e34;
+  width: 0.875rem;
+  height: 0.875rem;
+}
+
+.footer__card__body {
+  margin-bottom: 3.5rem;
+}
+
+.footer__card__title {
+  color: #ffffff;
+  font-family: "Lato";
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.6875rem;
+}
+
+.information {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+
+.logo__text--footer {
+  line-height: inherit;
+}
+
+.logo__img--footer {
+  position: relative;
+  top: -47px;
+  left: 84px;
+}
+
+.social {
+  margin-left: 5.3125rem;
+}
+.social:first-child {
+  margin-left: 0;
+}
+
+.paymant {
+  margin: -0.75rem;
+  width: 15.625rem;
+}
+
+.paymant__card {
+  margin: 0.75rem;
+  font-size: 2.188rem;
+  width: 2.4rem;
+}
+
+.property-rights {
+  height: 8.875rem;
+  width: 100%;
+  background-color: #1f1e1e;
+  color: white;
+  font-family: "Lato";
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.content {
+  margin: 0 auto;
+  padding-top: 2.625rem;
+}
+
+.footer__nav {
+  width: 27.625rem;
+}
+
+.rights {
+  width: 100%;
+  margin-top: 2.375rem;
 }
 
 /*# sourceMappingURL=style.css.map */
